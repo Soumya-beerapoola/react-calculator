@@ -1,0 +1,37 @@
+.numbers{
+    width:50px;
+    height:50px;
+    margin:10px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color :black;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+
+}
+.upperBox{
+    width:90%;
+    height:50px;
+    margin:10px;
+    background-color:white;
+    text-align:right;
+    font-weight: bold;
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    direction: ltr;
+    border-radius: 10px;
+
+}
+
+.main{
+    width:280px;
+    height:350px;
+    display:flex;
+    flex-flow: wrap;
+    background-color: rgb(43, 41, 41);
+}
